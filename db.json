@@ -1,0 +1,29 @@
+{
+    "posts": [
+        { "id": 1,
+          "slug": "hello-world",
+          "tags": ["purescript", "haskell", "programming"],
+          "title": "Hello World",
+          "content": "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
+          "created_at": "2017-12-20"
+        },
+        { "id": 2,
+          "slug": "post-2",
+          "tags": ["mind", "programming"],
+          "title": "My second post",
+          "content": "You've gotta dance like there's nobody watching, Love like you'll never be hurt, Sing like there's nobody listening, And live like it's heaven on earth.",
+          "created_at": "2017-12-20"
+        },
+        { "id": 3,
+          "slug": "post-3",
+          "tags": ["mind", "programming"],
+          "title": "My third post",
+          "content": "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
+          "created_at": "2017-12-20"
+        }
+    ],
+    "comments": [
+        { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+}

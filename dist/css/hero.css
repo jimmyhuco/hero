@@ -1,0 +1,28 @@
+body {
+    /* background-image: url("../images/wall.jpg"); */
+    background-image: url("https://images.unsplash.com/photo-1489343511429-5482f78c15cf?auto=format&fit=crop&w=966&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+}
+
+body, .navbar, .footer {
+    background-color: hsla(0, 0%, 96%, 0.6);
+}
+
+.footer {
+    padding: 1.2rem;
+}
+
+.articles {
+    /* margin-top: 3.25rem; */
+    padding-top: 3.25rem;
+}
+
+.articles article {
+    margin-top: 3rem;
+}
+article.box section {
+    margin-top: 2rem;
+}
+
+article.box .tags {
+    margin-top: 1rem;
+}

@@ -1,0 +1,14 @@
+在Body.component中，插入Articles.component、Article.component、Page.component
+通过ajax的返回来判断render那个child
+
+客户端将来要可以解析服务端返回的json，格式是markdown
+
+实现服务端
+
+
+
+------------------------------------------------------------------------------
+Finished:
+
+找一个fake json api done. json-server --watch db.json
+提供blog 文章的假数据 done. 手动写入 db.json
